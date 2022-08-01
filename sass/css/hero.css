@@ -1,0 +1,44 @@
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content;
+      grid-template-columns: 1fr -webkit-max-content;
+      grid-template-columns: 1fr max-content;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.hero__text {
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.hero__text h1 {
+  font-size: 50rem;
+  font-weight: 200px;
+  line-height: normal;
+  font-family: "OpenSans Bold";
+}
+
+.hero__text p {
+  font-size: 20rem;
+  font-family: "OpenSans Regular";
+  margin-top: 20px;
+}
+
+.hero__text button {
+  background-color: var(--primary);
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "OpenSans Bold";
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.hero__img {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=hero.css.map */

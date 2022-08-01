@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../one-page-them"
+	},
+	{
+		"path": "../../MY PORTFOLIO"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Yellow Brook"
+  }
+}
