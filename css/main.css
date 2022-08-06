@@ -487,6 +487,7 @@ h1 {
 
 .nav__logo {
   margin-top: 20px;
+  max-width: 700px;
 }
 
 .hero {
@@ -960,6 +961,119 @@ li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.USP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  gap: 130px;
+}
+
+.USP .USP_text {
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.USP .USP_text h1 {
+  font-size: 50rem;
+  line-height: normal;
+  margin-bottom: 10px;
+  font-family: "OpenSans Bold";
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.USP .USP_text p {
+  font-size: 20rem;
+  font-family: "OpenSans Regular";
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.USP .USP_items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  grid-gap: 40px;
+}
+
+.USP .USP_items .items {
+  display: block;
+  background-color: var(--primary);
+  padding: 15px 40px;
+  font-family: "OpenSans Regular";
+}
+
+.USP .USP_items .items h1 {
+  margin-bottom: 10px;
+}
+
+.USP .USP_items .items p {
+  font-size: 15rem;
+}
+
+.Contact {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 270px;
+}
+
+.Contact .contactme h1 {
+  font-size: 50rem;
+  line-height: normal;
+  margin-bottom: 10px;
+  font-family: "OpenSans Bold";
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.Contact .contactme p {
+  font-family: "OpenSans Regular";
+  font-size: 20rem;
+}
+
+.Contact form {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 100px;
+  max-width: 600px;
+  font-family: "OpenSans Regular";
+  font-size: 20rem;
+}
+
+.Contact form input[type="text"],
+.Contact form select,
+.Contact form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px var(--primary);
+  resize: vertical;
+}
+
+.Contact form input[type="submit"] {
+  background-color: var(--primary);
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  font-family: "OpenSans Bold";
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--primary);
+  display: block;
 }
 
 @font-face {

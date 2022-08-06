@@ -1,0 +1,50 @@
+.Contact {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 270px;
+}
+
+.Contact .contactme h1 {
+  font-size: 50rem;
+  line-height: normal;
+  margin-bottom: 10px;
+  font-family: "OpenSans Bold";
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.Contact .contactme p {
+  font-family: "OpenSans Regular";
+  font-size: 20rem;
+}
+
+.Contact form {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 100px;
+  max-width: 600px;
+  font-family: "OpenSans Regular";
+  font-size: 20rem;
+}
+
+.Contact form input[type="text"],
+.Contact form select,
+.Contact form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px var(--primary);
+  resize: vertical;
+}
+
+.Contact form input[type="submit"] {
+  background-color: var(--primary);
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  font-family: "OpenSans Bold";
+}
+/*# sourceMappingURL=contact.css.map */
