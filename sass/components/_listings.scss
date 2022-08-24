@@ -1,0 +1,31 @@
+.listings {
+  h1 {
+    font-size: 24rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "OpenSans Regular";
+    text-align: center;
+  }
+  .service {
+    display: flex;
+    max-width: 1300px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    gap: 50px;
+
+    .service_text {
+      h2 {
+        font-size: 24rem;
+        font-family: "OpenSans Regular";
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+    }
+    .service_img {
+      image-resolution: 10px;
+    }
+    p {
+      font-family: "OpenSans Regular";
+    }
+  }
+}
