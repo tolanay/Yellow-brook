@@ -1,5 +1,4 @@
 .services {
-  margin-top: 60px;
   h1 {
     font-size: 30rem;
     font-weight: 200px;
@@ -12,11 +11,10 @@
     max-width: 1155px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+
     grid-gap: 40px;
 
     .service {
-      margin-bottom: 40px;
       margin-left: auto;
       margin-right: auto;
       max-width: 350px;
@@ -24,9 +22,10 @@
       font-family: "OpenSans Regular";
 
       h1 {
+        text-align: left;
         font-size: 12rem;
         line-height: normal;
-        margin-bottom: 10px;
+        margin-top: 10px;
         font-family: "OpenSans Regular";
       }
 
@@ -36,10 +35,35 @@
         margin-bottom: 10px;
         font-family: "OpenSans Regular";
       }
-      button {
+      a {
         font-size: 15rem;
         font-family: "OpenSans Regular";
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: white;
+        color: white;
+        border: 1px solid white;
+      }
+      a:hover {
+        background-color: var(--primary);
+        color: black;
+      }
+
+      .a:active {
+        background-color: grey;
+        transform: translateY(4px);
       }
     }
   }
+}
+.service_txt {
+  //background-color: red;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 275px;
+  text-align: left;
+  margin-top: -50px;
 }
